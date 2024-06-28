@@ -3942,7 +3942,7 @@ When you rebuild only a slave because the slave is abnormal in the environment o
 For rebuilding replications, the following environment must be the same in master, slave and replica nodes.
 
 *   CUBRID version
-*   Environmental variable (**$CUBRID**, **$CUBRID_DATABASES**, **$LD_LIBRARY_PATH, $PATH**)
+*   Environmental variable (**$CUBRID**, **$CUBRID_DATABASES**, **$LD_LIBRARY_PATH**, **$PATH**, **$CUBRID_TMP**, **$TMPDIR**)
 *   The paths of database volume, log, and replication
 *   Username and password of the Linux server
 *   HA-related parameters except for **ha_mode**, **ha_copy_sync_mode**, **ha_ping_hosts** and **ha_tcp_ping_hosts**
